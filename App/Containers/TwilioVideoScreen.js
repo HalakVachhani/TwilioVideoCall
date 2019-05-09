@@ -4,9 +4,15 @@ import {
   TwilioVideoParticipantView,
   TwilioVideo
 } from 'react-native-twilio-video-webrtc';
-import { Platform, View, Text, TextInput, Button, TouchableOpacity, StyleSheet, PermissionsAndroid, PushNotificationIOS } from 'react-native';
+import { Platform, View, Text, TextInput, TouchableOpacity, PermissionsAndroid, NetInfo } from 'react-native';
 import styles from "./Styles/TwilioVideoStyles";
 
+function handleFirstConnectivityChange(isConnected) {
+    NetInfo.isConnected.removeEventListener(
+      "connectionChange",
+      handleFirstConnectivityChange
+    );
+  }
 
 export default class TwilioVideoScreen extends Component {
     constructor(props) {
@@ -25,27 +31,40 @@ export default class TwilioVideoScreen extends Component {
     componentWillMount() {
         if(Platform.OS == "android") {
             this.setState({
-                //user2
+                //user1
                 roomName: "TwilioVideoRoom",
-                token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiLTE1NTczMjAzMTciLCJpc3MiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiIiwic3ViIjoiQUNhMmUzYjYyODQ4ZTBlYWIxM2QwZTU5NjZiOGNiNDZkNCIsImV4cCI6MTU1NzMyMzkxNywiZ3JhbnRzIjp7ImlkZW50aXR5IjoiVXNlcjIiLCJ2aWRlbyI6eyJyb29tIjoiVHdpbGlvVmlkZW9Sb29tIn19fQ.2qWG1tUi9KLSQZKzDcuksmI1QfjcF5v4KnMwG0mKOm0'
+                token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiLTE1NTczOTc3MDAiLCJpc3MiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiIiwic3ViIjoiQUNhMmUzYjYyODQ4ZTBlYWIxM2QwZTU5NjZiOGNiNDZkNCIsImV4cCI6MTU1NzQwMTMwMCwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiVXNlcjEiLCJ2aWRlbyI6eyJyb29tIjoiVHdpbGlvVmlkZW9Sb29tIn19fQ.anCRnaqpiMGTdkd0m6koXy-zkZTtxvGnwy6uPagioto'
             })
             this.requestAudioRecordPermission();
         } 
         if(Platform.OS == "ios") {
             this.setState({
-                //user1
+                //user2
                 roomName: "TwilioVideoRoom",
-                token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiLTE1NTczMjIxMDkiLCJpc3MiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiIiwic3ViIjoiQUNhMmUzYjYyODQ4ZTBlYWIxM2QwZTU5NjZiOGNiNDZkNCIsImV4cCI6MTU1NzMyNTcwOSwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiVXNlcjEiLCJ2aWRlbyI6eyJyb29tIjoiVHdpbGlvVmlkZW9Sb29tIn19fQ.xDGo3i2ssu9Rkd4dEFP_IqocnKgnW_9IoL0Pvnx-wnQ'
+                token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiLTE1NTczOTg1NjQiLCJpc3MiOiJTSzk0MWZmMzI1MDIyZGQxZjEyMWZmZjYyMDI3ODY2NDJiIiwic3ViIjoiQUNhMmUzYjYyODQ4ZTBlYWIxM2QwZTU5NjZiOGNiNDZkNCIsImV4cCI6MTU1NzQwMjE2NCwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiVXNlcjIiLCJ2aWRlbyI6eyJyb29tIjoiVHdpbGlvVmlkZW9Sb29tIn19fQ.RgV-MpUbRsco4YYf5KNWSTkirivRrtApbWxE8P9WKGg'
             })
-            this.requestAudioRecordPermission();
-        }       
+        }                        
     }
 
     onConnectButtonPress = () => {
         console.log("onConnectButtonPress");        
-        console.log(this.state.status);   
-        this.refs.twilioVideo.connect({ roomName: this.state.roomName, accessToken: this.state.token });
-        this.setState({status: 'connecting'})
+        console.log(this.state.status);
+
+        NetInfo.isConnected.addEventListener(
+            "connectionChange",
+            handleFirstConnectivityChange
+        );
+  
+        NetInfo.isConnected.fetch().then(isConnected => {
+            if (isConnected) {
+                this.refs.twilioVideo.connect({ roomName: this.state.roomName, accessToken: this.state.token });
+                this.setState({status: 'connecting'});
+            } else {
+                alert("Please Check Your Internet Connection..!!");
+            }
+        });
+
+        
     }
 
     onEndButtonPress = () => {
@@ -82,7 +101,6 @@ export default class TwilioVideoScreen extends Component {
         var str = error.error;
         // console.log(error.error)
         alert(str);
-
         this.setState({status: 'disconnected'})
     }
 
@@ -96,6 +114,12 @@ export default class TwilioVideoScreen extends Component {
             [track.trackSid, { participantSid: participant.sid, videoTrackSid: track.trackSid }]
         ]),
         });
+
+        setTimeout(() => {
+            console.log("_onParticipantAddedVideoTrack videoTracks");
+            console.log(this.state.videoTracks);
+        },1500)
+
     }
 
     onParticipantRemovedVideoTrack = ({participant, track}) => {
@@ -103,7 +127,15 @@ export default class TwilioVideoScreen extends Component {
         console.log("onParticipantRemovedVideoTrack: ", participant, track)
 
         const videoTracks = this.state.videoTracks
-        videoTracks.delete(track.trackSid)
+
+        console.log("_onParticipantRemovedVideoTrack videoTracks :::::");
+        console.log(videoTracks);
+        console.log("videoTracks.length");
+        console.log(videoTracks.length);
+        
+        if(videoTracks.length > 0) {
+            videoTracks.delete(track.trackSid)
+        }
 
         this.setState({videoTracks: { ...videoTracks }})
     }
@@ -203,7 +235,7 @@ export default class TwilioVideoScreen extends Component {
                     <View style={styles.callContainer}>
                     {
                     this.state.status === 'connected' &&
-                    <TouchableOpacity style={styles.remoteGrid}>
+                    <View style={styles.remoteGrid}>
                         {
                         Array.from(this.state.videoTracks, ([trackSid, trackIdentifier]) => {
                             return (
@@ -215,7 +247,7 @@ export default class TwilioVideoScreen extends Component {
                             )
                         })
                         }
-                    </TouchableOpacity>
+                    </View>
                     }
                     <View
                     style={styles.optionsContainer}>
