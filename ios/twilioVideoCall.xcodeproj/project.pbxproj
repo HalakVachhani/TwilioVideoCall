@@ -12,37 +12,60 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00E356F31AD99517003FC87E /* TwilioVideoCallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TwilioVideoCallTests.m */; };
+		0AC3A1A4510E488BB3E169A5 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4800652853430291E148DB /* Avenir-Light.ttf */; };
+		0E9448E8C35A45FBBE3FDFCF /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34F1B6BFF3374AF586222170 /* FontAwesome5_Solid.ttf */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		133F2ABA432A44EB8C96502E /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF18D4CB2F8E4292887797A5 /* Zocial.ttf */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		141787413BB5491D8D048917 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 579A1C4CD965416FBD347195 /* AntDesign.ttf */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2E90F6B3ACAD4F1EB432F4E9 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417BC5DB26144A0C9924FC61 /* Entypo.ttf */; };
-		3F4B163432D64A73B404ACBB /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19BCB70FB3D34672ADDFB91A /* Zocial.ttf */; };
-		6618124C253C4817B73C759C /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F08109786943F69A572C8C /* Feather.ttf */; };
-		7D7ECD87B42E408BA04A83C5 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F575F5219ABA405AB2B4AC65 /* SimpleLineIcons.ttf */; };
+		1C3416D89A979D1D26717B6A /* libPods-TwilioVideoCall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC470C09B1D89F1141A044D2 /* libPods-TwilioVideoCall.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
+		2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */; };
+		2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */; };
+		2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */; };
+		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
+		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
+		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* TwilioVideoCallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TwilioVideoCallTests.m */; };
+		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		34E666C7A61343389E2BFDF4 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD48C5ABD5240D99AE5B38B /* Foundation.ttf */; };
+		3B34E949109146EB83F448AA /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83EB2C1F1A0F42DE94F33364 /* Roboto.ttf */; };
+		4AC52023C22B44369B20B188 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D1777F1C324B4DB777C042 /* SimpleLineIcons.ttf */; };
+		5E79ACFCAEFBF659375754D2 /* libPods-TwilioVideoCall-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E764BE28A254ADE4063299 /* libPods-TwilioVideoCall-tvOSTests.a */; };
+		638C0EE3A1F846BF9DA543C3 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB88695414A04F4CB6977A55 /* FontAwesome5_Brands.ttf */; };
+		6A515E1032B18397CB8D594C /* libPods-TwilioVideoCallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D116F80D5F3F03909A0A9EA /* libPods-TwilioVideoCallTests.a */; };
+		7123C02604D64EFEA8100ED5 /* Avenir-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0428D0D44F34891A7E4FB88 /* Avenir-Medium.ttf */; };
+		8306526AB70A4C61AE5D08CD /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3FAD43959884991817C0F92 /* Roboto_medium.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		861224559E08491C881845A5 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE0CC97A68C4489AD6EA3AC /* FontAwesome5_Regular.ttf */; };
-		8DB3804D2E64480FBD550CCA /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE71CB8948384C51BE548707 /* MaterialIcons.ttf */; };
-		976F5E66531E435B8B4CCC2D /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E2FE84D93474B81AA0736AC /* Ionicons.ttf */; };
-		AA6B63958FC842AFAFB1E9D2 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33040DBF2F8944BD88D0FA87 /* Octicons.ttf */; };
+		886DA6E1DD3C418E90DC2766 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46D584FAE56246678CC4F6EB /* rubicon-icon-font.ttf */; };
+		891BB6835F944F80AF8ED07B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABEDF0186C81422787C2DDE4 /* FontAwesome.ttf */; };
+		9B6F2C460CAE45FA8197F6FB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0720BD28D0DB4D729371DDAD /* MaterialIcons.ttf */; };
+		9DE35856969242D6A83FA24B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B5DAF01A4274BD393269206 /* Feather.ttf */; };
+		A38E0364F0444D9C82CFBB76 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67995B1D7EF344F5830B8F29 /* Entypo.ttf */; };
+		AB319B8C673149AD92988CAF /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C48C94DA34EE439791D3182D /* Octicons.ttf */; };
+		AD32478E5AB649B6ADECD8C4 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9308407412FA4EB8BAE26089 /* Ionicons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		BE33C6F997504E9BAD9473FC /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6003577189648EEA99BE548 /* AntDesign.ttf */; };
-		C0E2626B6FBE4D54BBD8994F /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7CC20A5F2394678B0DD7532 /* EvilIcons.ttf */; };
-		CE3748432281A9C600BF663B /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3748122281A9A900BF663B /* libBVLinearGradient.a */; };
-		CEBF051B2281B20800F8CC53 /* libRNTwilioVideoWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBF05182281B1F800F8CC53 /* libRNTwilioVideoWebRTC.a */; };
-		CECFE58B2281B77E00D4FE1C /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D55AE84220AC3FD00F3A82C /* libRNGestureHandler.a */; };
-		CECFE58C2281B78B00D4FE1C /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D55AE7D220AC3FD00F3A82C /* libRNVectorIcons.a */; };
-		DE0BC63941A0422E936661CC /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9AE92DFE2564609A03DA71B /* FontAwesome5_Brands.ttf */; };
-		E4A23EAA0E4DA2A3230FEA5C /* libPods-twilioVideoCall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA79B555D5B1BD8275B326A6 /* libPods-twilioVideoCall.a */; };
-		E61F9868C7914B549482C75A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 492F3B0BD012449D8DDDF801 /* MaterialCommunityIcons.ttf */; };
-		EF2A3287ED4E433783149F92 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32700905D6E84B12BD9CC470 /* Foundation.ttf */; };
-		F9ECF23CE89B40CCB03FB0E2 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B91173A510A64C74819CC98F /* FontAwesome.ttf */; };
-		FC7EB2D9518C4B55B2CF9D97 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 322CB40E0864474DB21962BD /* FontAwesome5_Solid.ttf */; };
+		C2C753FD04EA46F69720715A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 519E87DCB1D34B1499E87252 /* MaterialCommunityIcons.ttf */; };
+		CE7F60232284563500250A9F /* libRNTwilioVideoWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7F60222284560700250A9F /* libRNTwilioVideoWebRTC.a */; };
+		D1F7D4E429CD4E54A7CA60EA /* Avenir-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F6293A12EF1490384A8D1CB /* Avenir-Black.ttf */; };
+		D25F27A90D9243EBA99D4DE0 /* libPods-TwilioVideoCall-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B104F3B9BDC0226A977CC803 /* libPods-TwilioVideoCall-tvOS.a */; };
+		D44808583C854C1EAA5A6FB0 /* Avenir-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AB51DE657D44FF48671DE70 /* Avenir-Book.ttf */; };
+		D94C728983D942C58810316A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9DF749BC2D4401281381EE8 /* FontAwesome5_Regular.ttf */; };
+		EF67B6D9F66145189243AB50 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A28A8EEB4B147969F2B61FE /* EvilIcons.ttf */; };
+		F005F387FDBC4CB6B2FA0706 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFBF38E844747678BCA41B9 /* libRNGestureHandler.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +104,13 @@
 			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
 			remoteInfo = RCTVibration;
 		};
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TwilioVideoCall;
+		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
@@ -101,6 +131,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "TwilioVideoCall-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -164,6 +201,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
+		};
+		2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
+			remoteInfo = privatedata;
+		};
+		2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
+			remoteInfo = "privatedata-tvOS";
 		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -242,26 +293,19 @@
 			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
 			remoteInfo = "cxxreact-tvOS";
 		};
-		5D55AE7C220AC3FD00F3A82C /* PBXContainerItemProxy */ = {
+		3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C09DAAD57CD04FF1B4A8920E /* RNVectorIcons.xcodeproj */;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 5DBEB1501B18CEA900B34395;
-			remoteInfo = RNVectorIcons;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
 		};
-		5D55AE7E220AC3FD00F3A82C /* PBXContainerItemProxy */ = {
+		3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C09DAAD57CD04FF1B4A8920E /* RNVectorIcons.xcodeproj */;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A39873CE1EA65EE60051E01A;
-			remoteInfo = "RNVectorIcons-tvOS";
-		};
-		5D55AE83220AC3FD00F3A82C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 12FA9F602A954046A9312E86 /* RNGestureHandler.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNGestureHandler;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
 		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -298,51 +342,16 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
-		CE37480F2281A9A900BF663B /* PBXContainerItemProxy */ = {
+		CE7F601B228455A500250A9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE37480A2281A9A900BF663B /* BVLinearGradient.xcodeproj */;
+			containerPortal = 19B9F901326B408F95CDE5DB /* RNGestureHandler.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = BVLinearGradient;
+			remoteInfo = RNGestureHandler;
 		};
-		CE3748112281A9A900BF663B /* PBXContainerItemProxy */ = {
+		CE7F60212284560700250A9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE37480A2281A9A900BF663B /* BVLinearGradient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 64AA15081EF7F30100718508;
-			remoteInfo = "BVLinearGradient-tvOS";
-		};
-		CE3748382281A9A900BF663B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		CE37483A2281A9A900BF663B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
-		CE37483C2281A9A900BF663B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
-			remoteInfo = privatedata;
-		};
-		CE37483E2281A9A900BF663B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
-			remoteInfo = "privatedata-tvOS";
-		};
-		CEBF05172281B1F800F8CC53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEBF04EB2281B1F800F8CC53 /* RNTwilioVideoWebRTC.xcodeproj */;
+			containerPortal = CE7F601D2284560600250A9F /* RNTwilioVideoWebRTC.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 738F9D552037604000058972;
 			remoteInfo = RNTwilioVideoWebRTC;
@@ -356,59 +365,82 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* TwilioVideoCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwilioVideoCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* twilioVideoCallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twilioVideoCallTests.m; sourceTree = "<group>"; };
-		0A481512B083437FA79EDC19 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
-		0E2FE84D93474B81AA0736AC /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		12FA9F602A954046A9312E86 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TwilioVideoCallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioVideoCallTests.m; sourceTree = "<group>"; };
+		0720BD28D0DB4D729371DDAD /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* twilioVideoCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twilioVideoCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = twilioVideoCall/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = twilioVideoCall/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TwilioVideoCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwilioVideoCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TwilioVideoCall/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TwilioVideoCall/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = twilioVideoCall/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = twilioVideoCall/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = twilioVideoCall/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TwilioVideoCall/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TwilioVideoCall/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TwilioVideoCall/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		172E50651E44127F188EE439 /* Pods-twilioVideoCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twilioVideoCall.release.xcconfig"; path = "Target Support Files/Pods-twilioVideoCall/Pods-twilioVideoCall.release.xcconfig"; sourceTree = "<group>"; };
-		19BCB70FB3D34672ADDFB91A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		19B9F901326B408F95CDE5DB /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
+		1C7073E7098832A1CA86D22A /* Pods-TwilioVideoCall-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCall-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCall-tvOSTests/Pods-TwilioVideoCall-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A28A8EEB4B147969F2B61FE /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* TwilioVideoCall-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwilioVideoCall-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* TwilioVideoCall-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TwilioVideoCall-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D116F80D5F3F03909A0A9EA /* libPods-TwilioVideoCallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwilioVideoCallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		322CB40E0864474DB21962BD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		32700905D6E84B12BD9CC470 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		33040DBF2F8944BD88D0FA87 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		417BC5DB26144A0C9924FC61 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		43F15F1D3927D4C101516663 /* Pods-twilioVideoCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twilioVideoCall.debug.xcconfig"; path = "Target Support Files/Pods-twilioVideoCall/Pods-twilioVideoCall.debug.xcconfig"; sourceTree = "<group>"; };
-		492F3B0BD012449D8DDDF801 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		31E764BE28A254ADE4063299 /* libPods-TwilioVideoCall-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwilioVideoCall-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F1B6BFF3374AF586222170 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3EFBF38E844747678BCA41B9 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
+		46D584FAE56246678CC4F6EB /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		519E87DCB1D34B1499E87252 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		579A1C4CD965416FBD347195 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		5AD48C5ABD5240D99AE5B38B /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		5B245B8E821F51B0F922397B /* Pods-TwilioVideoCall-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCall-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCall-tvOSTests/Pods-TwilioVideoCall-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		62F08109786943F69A572C8C /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		62FBEB699DE15267362FCD22 /* Pods-TwilioVideoCallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCallTests.release.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCallTests/Pods-TwilioVideoCallTests.release.xcconfig"; sourceTree = "<group>"; };
+		67995B1D7EF344F5830B8F29 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		731D92B268D5E2A4873CEA55 /* Pods-TwilioVideoCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCall.debug.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCall/Pods-TwilioVideoCall.debug.xcconfig"; sourceTree = "<group>"; };
+		73D1777F1C324B4DB777C042 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7AB51DE657D44FF48671DE70 /* Avenir-Book.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Book.ttf"; path = "../App/Fonts/Avenir-Book.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		83EB2C1F1A0F42DE94F33364 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		8F6293A12EF1490384A8D1CB /* Avenir-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Black.ttf"; path = "../App/Fonts/Avenir-Black.ttf"; sourceTree = "<group>"; };
+		9308407412FA4EB8BAE26089 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		9B5DAF01A4274BD393269206 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		9F5201340194442297444790 /* Pods-TwilioVideoCallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCallTests.debug.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCallTests/Pods-TwilioVideoCallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0428D0D44F34891A7E4FB88 /* Avenir-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Medium.ttf"; path = "../App/Fonts/Avenir-Medium.ttf"; sourceTree = "<group>"; };
+		A3FAD43959884991817C0F92 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		A9DF749BC2D4401281381EE8 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		ABCB076396019269612472B0 /* Pods-TwilioVideoCall-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCall-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCall-tvOS/Pods-TwilioVideoCall-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		ABEDF0186C81422787C2DDE4 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		B91173A510A64C74819CC98F /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		B9AE92DFE2564609A03DA71B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		BE71CB8948384C51BE548707 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		C09DAAD57CD04FF1B4A8920E /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
-		CE37480A2281A9A900BF663B /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
-		CEBF04EB2281B1F800F8CC53 /* RNTwilioVideoWebRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTwilioVideoWebRTC.xcodeproj; path = "../node_modules/react-native-twilio-video-webrtc/ios/RNTwilioVideoWebRTC.xcodeproj"; sourceTree = "<group>"; };
-		DA79B555D5B1BD8275B326A6 /* libPods-twilioVideoCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twilioVideoCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDE0CC97A68C4489AD6EA3AC /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		E6003577189648EEA99BE548 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		E789CA84AC3C445D912C722D /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; };
-		EFDD83A658544BD88AAFB835 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
-		F575F5219ABA405AB2B4AC65 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		F7CC20A5F2394678B0DD7532 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B104F3B9BDC0226A977CC803 /* libPods-TwilioVideoCall-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwilioVideoCall-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF18D4CB2F8E4292887797A5 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		C48C94DA34EE439791D3182D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		CE4800652853430291E148DB /* Avenir-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Light.ttf"; path = "../App/Fonts/Avenir-Light.ttf"; sourceTree = "<group>"; };
+		CE7F601D2284560600250A9F /* RNTwilioVideoWebRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTwilioVideoWebRTC.xcodeproj; path = "../node_modules/react-native-twilio-video-webrtc/ios/RNTwilioVideoWebRTC.xcodeproj"; sourceTree = "<group>"; };
+		DC470C09B1D89F1141A044D2 /* libPods-TwilioVideoCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwilioVideoCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB88695414A04F4CB6977A55 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		F7985A7C57DE147769B717A4 /* Pods-TwilioVideoCall-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCall-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCall-tvOS/Pods-TwilioVideoCall-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB0E0C49FA88D8340CD4B82 /* Pods-TwilioVideoCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioVideoCall.release.xcconfig"; path = "Target Support Files/Pods-TwilioVideoCall/Pods-TwilioVideoCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				6A515E1032B18397CB8D594C /* libPods-TwilioVideoCallTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				CE3748432281A9C600BF663B /* libBVLinearGradient.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
+				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
@@ -418,10 +450,34 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				E4A23EAA0E4DA2A3230FEA5C /* libPods-twilioVideoCall.a in Frameworks */,
-				CEBF051B2281B20800F8CC53 /* libRNTwilioVideoWebRTC.a in Frameworks */,
-				CECFE58B2281B77E00D4FE1C /* libRNGestureHandler.a in Frameworks */,
-				CECFE58C2281B78B00D4FE1C /* libRNVectorIcons.a in Frameworks */,
+				F005F387FDBC4CB6B2FA0706 /* libRNGestureHandler.a in Frameworks */,
+				1C3416D89A979D1D26717B6A /* libPods-TwilioVideoCall.a in Frameworks */,
+				CE7F60232284563500250A9F /* libRNTwilioVideoWebRTC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
+				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
+				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
+				2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */,
+				2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */,
+				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
+				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
+				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				D25F27A90D9243EBA99D4DE0 /* libPods-TwilioVideoCall-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
+				5E79ACFCAEFBF659375754D2 /* libPods-TwilioVideoCall-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,13 +526,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* twilioVideoCallTests */ = {
+		00E356EF1AD99517003FC87E /* TwilioVideoCallTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* twilioVideoCallTests.m */,
+				00E356F21AD99517003FC87E /* TwilioVideoCallTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = twilioVideoCallTests;
+			path = TwilioVideoCallTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -485,28 +541,6 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0905FCC6A9B14E0086AAE153 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E6003577189648EEA99BE548 /* AntDesign.ttf */,
-				417BC5DB26144A0C9924FC61 /* Entypo.ttf */,
-				F7CC20A5F2394678B0DD7532 /* EvilIcons.ttf */,
-				62F08109786943F69A572C8C /* Feather.ttf */,
-				B91173A510A64C74819CC98F /* FontAwesome.ttf */,
-				B9AE92DFE2564609A03DA71B /* FontAwesome5_Brands.ttf */,
-				DDE0CC97A68C4489AD6EA3AC /* FontAwesome5_Regular.ttf */,
-				322CB40E0864474DB21962BD /* FontAwesome5_Solid.ttf */,
-				32700905D6E84B12BD9CC470 /* Foundation.ttf */,
-				0E2FE84D93474B81AA0736AC /* Ionicons.ttf */,
-				492F3B0BD012449D8DDDF801 /* MaterialCommunityIcons.ttf */,
-				BE71CB8948384C51BE548707 /* MaterialIcons.ttf */,
-				33040DBF2F8944BD88D0FA87 /* Octicons.ttf */,
-				F575F5219ABA405AB2B4AC65 /* SimpleLineIcons.ttf */,
-				19BCB70FB3D34672ADDFB91A /* Zocial.ttf */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -529,7 +563,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* twilioVideoCall */ = {
+		13B07FAE1A68108700A75B9A /* TwilioVideoCall */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -540,7 +574,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = twilioVideoCall;
+			name = TwilioVideoCall;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -552,16 +586,16 @@
 				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
-				CE3748392281A9A900BF663B /* libjschelpers.a */,
-				CE37483B2281A9A900BF663B /* libjschelpers.a */,
+				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
+				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
 				2DF0FFDF2056DD460020B375 /* libjsinspector.a */,
 				2DF0FFE12056DD460020B375 /* libjsinspector-tvOS.a */,
 				2DF0FFE32056DD460020B375 /* libthird-party.a */,
 				2DF0FFE52056DD460020B375 /* libthird-party.a */,
 				2DF0FFE72056DD460020B375 /* libdouble-conversion.a */,
 				2DF0FFE92056DD460020B375 /* libdouble-conversion.a */,
-				CE37483D2281A9A900BF663B /* libprivatedata.a */,
-				CE37483F2281A9A900BF663B /* libprivatedata-tvOS.a */,
+				2DF0FFEB2056DD460020B375 /* libprivatedata.a */,
+				2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -570,36 +604,56 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				DA79B555D5B1BD8275B326A6 /* libPods-twilioVideoCall.a */,
+				DC470C09B1D89F1141A044D2 /* libPods-TwilioVideoCall.a */,
+				B104F3B9BDC0226A977CC803 /* libPods-TwilioVideoCall-tvOS.a */,
+				31E764BE28A254ADE4063299 /* libPods-TwilioVideoCall-tvOSTests.a */,
+				2D116F80D5F3F03909A0A9EA /* libPods-TwilioVideoCallTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D55AE4A220AC3FD00F3A82C /* Recovered References */ = {
+		3513ED85E84F0CC3ABCDE071 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A481512B083437FA79EDC19 /* libRNGestureHandler.a */,
-				EFDD83A658544BD88AAFB835 /* libRNVectorIcons.a */,
-				E789CA84AC3C445D912C722D /* libRNVectorIcons-tvOS.a */,
+				731D92B268D5E2A4873CEA55 /* Pods-TwilioVideoCall.debug.xcconfig */,
+				FBB0E0C49FA88D8340CD4B82 /* Pods-TwilioVideoCall.release.xcconfig */,
+				F7985A7C57DE147769B717A4 /* Pods-TwilioVideoCall-tvOS.debug.xcconfig */,
+				ABCB076396019269612472B0 /* Pods-TwilioVideoCall-tvOS.release.xcconfig */,
+				1C7073E7098832A1CA86D22A /* Pods-TwilioVideoCall-tvOSTests.debug.xcconfig */,
+				5B245B8E821F51B0F922397B /* Pods-TwilioVideoCall-tvOSTests.release.xcconfig */,
+				9F5201340194442297444790 /* Pods-TwilioVideoCallTests.debug.xcconfig */,
+				62FBEB699DE15267362FCD22 /* Pods-TwilioVideoCallTests.release.xcconfig */,
 			);
-			name = "Recovered References";
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		5D55AE78220AC3FD00F3A82C /* Products */ = {
+		596A38434F934C279435CA7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5D55AE7D220AC3FD00F3A82C /* libRNVectorIcons.a */,
-				5D55AE7F220AC3FD00F3A82C /* libRNVectorIcons-tvOS.a */,
+				8F6293A12EF1490384A8D1CB /* Avenir-Black.ttf */,
+				7AB51DE657D44FF48671DE70 /* Avenir-Book.ttf */,
+				CE4800652853430291E148DB /* Avenir-Light.ttf */,
+				A0428D0D44F34891A7E4FB88 /* Avenir-Medium.ttf */,
+				579A1C4CD965416FBD347195 /* AntDesign.ttf */,
+				67995B1D7EF344F5830B8F29 /* Entypo.ttf */,
+				2A28A8EEB4B147969F2B61FE /* EvilIcons.ttf */,
+				9B5DAF01A4274BD393269206 /* Feather.ttf */,
+				ABEDF0186C81422787C2DDE4 /* FontAwesome.ttf */,
+				EB88695414A04F4CB6977A55 /* FontAwesome5_Brands.ttf */,
+				A9DF749BC2D4401281381EE8 /* FontAwesome5_Regular.ttf */,
+				34F1B6BFF3374AF586222170 /* FontAwesome5_Solid.ttf */,
+				5AD48C5ABD5240D99AE5B38B /* Foundation.ttf */,
+				9308407412FA4EB8BAE26089 /* Ionicons.ttf */,
+				519E87DCB1D34B1499E87252 /* MaterialCommunityIcons.ttf */,
+				0720BD28D0DB4D729371DDAD /* MaterialIcons.ttf */,
+				C48C94DA34EE439791D3182D /* Octicons.ttf */,
+				A3FAD43959884991817C0F92 /* Roboto_medium.ttf */,
+				83EB2C1F1A0F42DE94F33364 /* Roboto.ttf */,
+				46D584FAE56246678CC4F6EB /* rubicon-icon-font.ttf */,
+				73D1777F1C324B4DB777C042 /* SimpleLineIcons.ttf */,
+				BF18D4CB2F8E4292887797A5 /* Zocial.ttf */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D55AE80220AC3FD00F3A82C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D55AE84220AC3FD00F3A82C /* libRNGestureHandler.a */,
-			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -623,8 +677,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				CEBF04EB2281B1F800F8CC53 /* RNTwilioVideoWebRTC.xcodeproj */,
-				CE37480A2281A9A900BF663B /* BVLinearGradient.xcodeproj */,
+				CE7F601D2284560600250A9F /* RNTwilioVideoWebRTC.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -637,8 +690,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				12FA9F602A954046A9312E86 /* RNGestureHandler.xcodeproj */,
-				C09DAAD57CD04FF1B4A8920E /* RNVectorIcons.xcodeproj */,
+				19B9F901326B408F95CDE5DB /* RNGestureHandler.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -655,14 +707,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* twilioVideoCall */,
+				13B07FAE1A68108700A75B9A /* TwilioVideoCall */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* twilioVideoCallTests */,
+				00E356EF1AD99517003FC87E /* TwilioVideoCallTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0905FCC6A9B14E0086AAE153 /* Resources */,
-				5D55AE4A220AC3FD00F3A82C /* Recovered References */,
-				F50D2149195C1359E929D476 /* Pods */,
+				596A38434F934C279435CA7E /* Resources */,
+				3513ED85E84F0CC3ABCDE071 /* Pods */,
+				CE7F5FF2228455A500250A9F /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -672,7 +724,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* twilioVideoCall.app */,
+				13B07F961A680F5B00A75B9A /* TwilioVideoCall.app */,
+				00E356EE1AD99517003FC87E /* TwilioVideoCallTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* TwilioVideoCall-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* TwilioVideoCall-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -686,54 +741,109 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE37480B2281A9A900BF663B /* Products */ = {
+		CE7F5FF2228455A500250A9F /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				CE3748102281A9A900BF663B /* libBVLinearGradient.a */,
-				CE3748122281A9A900BF663B /* libBVLinearGradient.a */,
+				3EFBF38E844747678BCA41B9 /* libRNGestureHandler.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CE7F6018228455A500250A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7F601C228455A500250A9F /* libRNGestureHandler.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEBF04EC2281B1F800F8CC53 /* Products */ = {
+		CE7F601E2284560600250A9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBF05182281B1F800F8CC53 /* libRNTwilioVideoWebRTC.a */,
+				CE7F60222284560700250A9F /* libRNTwilioVideoWebRTC.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F50D2149195C1359E929D476 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				43F15F1D3927D4C101516663 /* Pods-twilioVideoCall.debug.xcconfig */,
-				172E50651E44127F188EE439 /* Pods-twilioVideoCall.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* twilioVideoCall */ = {
+		00E356ED1AD99517003FC87E /* TwilioVideoCallTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "twilioVideoCall" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TwilioVideoCallTests" */;
 			buildPhases = (
-				A34EA5B8B7640DA4DD3B4498 /* [CP] Check Pods Manifest.lock */,
+				C1A3D8B6405C500B6176F599 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TwilioVideoCallTests;
+			productName = TwilioVideoCallTests;
+			productReference = 00E356EE1AD99517003FC87E /* TwilioVideoCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* TwilioVideoCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TwilioVideoCall" */;
+			buildPhases = (
+				D8E577996497563A80C0C65A /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				FD501B3BA7F694FDAE869DA2 /* [CP] Embed Pods Frameworks */,
+				7E66F22473241208C8215D4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = twilioVideoCall;
+			name = TwilioVideoCall;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* twilioVideoCall.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* TwilioVideoCall.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* TwilioVideoCall-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TwilioVideoCall-tvOS" */;
+			buildPhases = (
+				BA171124D85D176724BA6590 /* [CP] Check Pods Manifest.lock */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TwilioVideoCall-tvOS";
+			productName = "TwilioVideoCall-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* TwilioVideoCall-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* TwilioVideoCall-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TwilioVideoCall-tvOSTests" */;
+			buildPhases = (
+				D5F014FBAA18150E64B6D0D0 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "TwilioVideoCall-tvOSTests";
+			productName = "TwilioVideoCall-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* TwilioVideoCall-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -744,17 +854,26 @@
 				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Y98X8JAPH6;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = Y98X8JAPH6;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "twilioVideoCall" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TwilioVideoCall" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -766,10 +885,6 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
-				{
-					ProductGroup = CE37480B2281A9A900BF663B /* Products */;
-					ProjectRef = CE37480A2281A9A900BF663B /* BVLinearGradient.xcodeproj */;
-				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -819,21 +934,20 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 5D55AE80220AC3FD00F3A82C /* Products */;
-					ProjectRef = 12FA9F602A954046A9312E86 /* RNGestureHandler.xcodeproj */;
+					ProductGroup = CE7F6018228455A500250A9F /* Products */;
+					ProjectRef = 19B9F901326B408F95CDE5DB /* RNGestureHandler.xcodeproj */;
 				},
 				{
-					ProductGroup = CEBF04EC2281B1F800F8CC53 /* Products */;
-					ProjectRef = CEBF04EB2281B1F800F8CC53 /* RNTwilioVideoWebRTC.xcodeproj */;
-				},
-				{
-					ProductGroup = 5D55AE78220AC3FD00F3A82C /* Products */;
-					ProjectRef = C09DAAD57CD04FF1B4A8920E /* RNVectorIcons.xcodeproj */;
+					ProductGroup = CE7F601E2284560600250A9F /* Products */;
+					ProjectRef = CE7F601D2284560600250A9F /* RNTwilioVideoWebRTC.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* twilioVideoCall */,
+				13B07F861A680F5B00A75B9A /* TwilioVideoCall */,
+				00E356ED1AD99517003FC87E /* TwilioVideoCallTests */,
+				2D02E47A1E0B4A5D006451C7 /* TwilioVideoCall-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* TwilioVideoCall-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -958,6 +1072,20 @@
 			remoteRef = 2DF0FFE82056DD460020B375 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2DF0FFEB2056DD460020B375 /* libprivatedata.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprivatedata.a;
+			remoteRef = 2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprivatedata-tvOS.a";
+			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1035,25 +1163,18 @@
 			remoteRef = 3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D55AE7D220AC3FD00F3A82C /* libRNVectorIcons.a */ = {
+		3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRNVectorIcons.a;
-			remoteRef = 5D55AE7C220AC3FD00F3A82C /* PBXContainerItemProxy */;
+			path = libjschelpers.a;
+			remoteRef = 3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5D55AE7F220AC3FD00F3A82C /* libRNVectorIcons-tvOS.a */ = {
+		3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libRNVectorIcons-tvOS.a";
-			remoteRef = 5D55AE7E220AC3FD00F3A82C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5D55AE84220AC3FD00F3A82C /* libRNGestureHandler.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNGestureHandler.a;
-			remoteRef = 5D55AE83220AC3FD00F3A82C /* PBXContainerItemProxy */;
+			path = libjschelpers.a;
+			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
@@ -1091,79 +1212,73 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CE3748102281A9A900BF663B /* libBVLinearGradient.a */ = {
+		CE7F601C228455A500250A9F /* libRNGestureHandler.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libBVLinearGradient.a;
-			remoteRef = CE37480F2281A9A900BF663B /* PBXContainerItemProxy */;
+			path = libRNGestureHandler.a;
+			remoteRef = CE7F601B228455A500250A9F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CE3748122281A9A900BF663B /* libBVLinearGradient.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libBVLinearGradient.a;
-			remoteRef = CE3748112281A9A900BF663B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE3748392281A9A900BF663B /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = CE3748382281A9A900BF663B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE37483B2281A9A900BF663B /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = CE37483A2281A9A900BF663B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE37483D2281A9A900BF663B /* libprivatedata.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libprivatedata.a;
-			remoteRef = CE37483C2281A9A900BF663B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE37483F2281A9A900BF663B /* libprivatedata-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libprivatedata-tvOS.a";
-			remoteRef = CE37483E2281A9A900BF663B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CEBF05182281B1F800F8CC53 /* libRNTwilioVideoWebRTC.a */ = {
+		CE7F60222284560700250A9F /* libRNTwilioVideoWebRTC.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNTwilioVideoWebRTC.a;
-			remoteRef = CEBF05172281B1F800F8CC53 /* PBXContainerItemProxy */;
+			remoteRef = CE7F60212284560700250A9F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				BE33C6F997504E9BAD9473FC /* AntDesign.ttf in Resources */,
-				2E90F6B3ACAD4F1EB432F4E9 /* Entypo.ttf in Resources */,
-				C0E2626B6FBE4D54BBD8994F /* EvilIcons.ttf in Resources */,
-				6618124C253C4817B73C759C /* Feather.ttf in Resources */,
-				F9ECF23CE89B40CCB03FB0E2 /* FontAwesome.ttf in Resources */,
-				DE0BC63941A0422E936661CC /* FontAwesome5_Brands.ttf in Resources */,
-				861224559E08491C881845A5 /* FontAwesome5_Regular.ttf in Resources */,
-				FC7EB2D9518C4B55B2CF9D97 /* FontAwesome5_Solid.ttf in Resources */,
-				EF2A3287ED4E433783149F92 /* Foundation.ttf in Resources */,
-				976F5E66531E435B8B4CCC2D /* Ionicons.ttf in Resources */,
-				E61F9868C7914B549482C75A /* MaterialCommunityIcons.ttf in Resources */,
-				8DB3804D2E64480FBD550CCA /* MaterialIcons.ttf in Resources */,
-				AA6B63958FC842AFAFB1E9D2 /* Octicons.ttf in Resources */,
-				7D7ECD87B42E408BA04A83C5 /* SimpleLineIcons.ttf in Resources */,
-				3F4B163432D64A73B404ACBB /* Zocial.ttf in Resources */,
+				D1F7D4E429CD4E54A7CA60EA /* Avenir-Black.ttf in Resources */,
+				D44808583C854C1EAA5A6FB0 /* Avenir-Book.ttf in Resources */,
+				0AC3A1A4510E488BB3E169A5 /* Avenir-Light.ttf in Resources */,
+				7123C02604D64EFEA8100ED5 /* Avenir-Medium.ttf in Resources */,
+				141787413BB5491D8D048917 /* AntDesign.ttf in Resources */,
+				A38E0364F0444D9C82CFBB76 /* Entypo.ttf in Resources */,
+				EF67B6D9F66145189243AB50 /* EvilIcons.ttf in Resources */,
+				9DE35856969242D6A83FA24B /* Feather.ttf in Resources */,
+				891BB6835F944F80AF8ED07B /* FontAwesome.ttf in Resources */,
+				638C0EE3A1F846BF9DA543C3 /* FontAwesome5_Brands.ttf in Resources */,
+				D94C728983D942C58810316A /* FontAwesome5_Regular.ttf in Resources */,
+				0E9448E8C35A45FBBE3FDFCF /* FontAwesome5_Solid.ttf in Resources */,
+				34E666C7A61343389E2BFDF4 /* Foundation.ttf in Resources */,
+				AD32478E5AB649B6ADECD8C4 /* Ionicons.ttf in Resources */,
+				C2C753FD04EA46F69720715A /* MaterialCommunityIcons.ttf in Resources */,
+				9B6F2C460CAE45FA8197F6FB /* MaterialIcons.ttf in Resources */,
+				AB319B8C673149AD92988CAF /* Octicons.ttf in Resources */,
+				8306526AB70A4C61AE5D08CD /* Roboto_medium.ttf in Resources */,
+				3B34E949109146EB83F448AA /* Roboto.ttf in Resources */,
+				886DA6E1DD3C418E90DC2766 /* rubicon-icon-font.ttf in Resources */,
+				4AC52023C22B44369B20B188 /* SimpleLineIcons.ttf in Resources */,
+				133F2ABA432A44EB8C96502E /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1184,7 +1299,43 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		A34EA5B8B7640DA4DD3B4498 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		7E66F22473241208C8215D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwilioVideoCall/Pods-TwilioVideoCall-frameworks.sh",
+				"${PODS_ROOT}/TwilioVideo/Build/iOS/TwilioVideo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVideo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwilioVideoCall/Pods-TwilioVideoCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA171124D85D176724BA6590 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1199,14 +1350,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-twilioVideoCall-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TwilioVideoCall-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD501B3BA7F694FDAE869DA2 /* [CP] Embed Pods Frameworks */ = {
+		C1A3D8B6405C500B6176F599 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1214,23 +1365,75 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-twilioVideoCall/Pods-twilioVideoCall-frameworks.sh",
-				"${PODS_ROOT}/TwilioVideo/Build/iOS/TwilioVideo.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVideo.framework",
+				"$(DERIVED_FILE_DIR)/Pods-TwilioVideoCallTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twilioVideoCall/Pods-twilioVideoCall-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F014FBAA18150E64B6D0D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwilioVideoCall-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E577996497563A80C0C65A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwilioVideoCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TwilioVideoCallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1240,7 +1443,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* TwilioVideoCallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TwilioVideoCall */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* TwilioVideoCall-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
@@ -1249,15 +1482,74 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = twilioVideoCall;
+			path = TwilioVideoCall;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5201340194442297444790 /* Pods-TwilioVideoCallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+				);
+				INFOPLIST_FILE = TwilioVideoCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwilioVideoCall.app/TwilioVideoCall";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FBEB699DE15267362FCD22 /* Pods-TwilioVideoCallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+				);
+				INFOPLIST_FILE = TwilioVideoCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwilioVideoCall.app/TwilioVideoCall";
+			};
+			name = Release;
+		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F15F1D3927D4C101516663 /* Pods-twilioVideoCall.debug.xcconfig */;
+			baseConfigurationReference = 731D92B268D5E2A4873CEA55 /* Pods-TwilioVideoCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1266,26 +1558,23 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../react-native/React",
 				);
-				INFOPLIST_FILE = twilioVideoCall/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = TwilioVideoCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simform.twilioVideoCall;
-				PRODUCT_NAME = twilioVideoCall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.TwilioVideoCall;
+				PRODUCT_NAME = TwilioVideoCall;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 172E50651E44127F188EE439 /* Pods-twilioVideoCall.release.xcconfig */;
+			baseConfigurationReference = FBB0E0C49FA88D8340CD4B82 /* Pods-TwilioVideoCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1293,20 +1582,155 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-					"$(SRCROOT)/../react-native/React",
 				);
-				INFOPLIST_FILE = twilioVideoCall/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = TwilioVideoCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simform.twilioVideoCall;
-				PRODUCT_NAME = twilioVideoCall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.TwilioVideoCall;
+				PRODUCT_NAME = TwilioVideoCall;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7985A7C57DE147769B717A4 /* Pods-TwilioVideoCall-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+				);
+				INFOPLIST_FILE = "TwilioVideoCall-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TwilioVideoCall-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCB076396019269612472B0 /* Pods-TwilioVideoCall-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+				);
+				INFOPLIST_FILE = "TwilioVideoCall-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TwilioVideoCall-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7073E7098832A1CA86D22A /* Pods-TwilioVideoCall-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+				);
+				INFOPLIST_FILE = "TwilioVideoCall-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TwilioVideoCall-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwilioVideoCall-tvOS.app/TwilioVideoCall-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B245B8E821F51B0F922397B /* Pods-TwilioVideoCall-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+				);
+				INFOPLIST_FILE = "TwilioVideoCall-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TwilioVideoCall-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwilioVideoCall-tvOS.app/TwilioVideoCall-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -1412,7 +1836,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "twilioVideoCall" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TwilioVideoCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TwilioVideoCall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1421,7 +1854,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "twilioVideoCall" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TwilioVideoCall-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TwilioVideoCall-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TwilioVideoCall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

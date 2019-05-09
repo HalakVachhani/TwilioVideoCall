@@ -1,11 +1,34 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'twilioVideoCall' do
+target 'TwilioVideoCall' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for twilioVideoCall
+  # Pods for TwilioVideoCall
   pod 'TwilioVideo'
+
+  target 'TwilioVideoCall-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TwilioVideoCallTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TwilioVideoCall-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TwilioVideoCall-tvOS
+
+  # target 'TwilioVideoCall-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
 
 end

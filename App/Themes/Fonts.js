@@ -1,21 +1,22 @@
 const type = {
   base: 'Avenir-Book',
   bold: 'Avenir-Black',
-  emphasis: 'HelveticaNeue-Italic'
+  light: 'Avenir-Light',
+  medium: 'Avenir-Medium'
 };
 
 const size = {
-  h1: 38,
-  h2: 34,
-  h3: 30,
-  h4: 26,
-  h5: 20,
-  h6: 19,
-  input: 18,
-  regular: 17,
-  medium: 14,
-  small: 12,
-  tiny: 8.5
+  h1: '38rem',
+  h2: '34rem',
+  h3: '30rem',
+  h4: '26rem',
+  h5: '20rem',
+  h6: '19rem',
+  input: '18rem',
+  regular: '17rem',
+  medium: '14rem',
+  small: '12rem',
+  tiny: '8.5rem'
 };
 
 const style = {

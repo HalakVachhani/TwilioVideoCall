@@ -22,7 +22,8 @@ const colors = {
   border: '#483F53',
   banner: '#5F3E63',
   text: '#E0D7E5',
-  black: "#000000",
+  white: '#FFFFFF',
+  black: '#000000',
   blue: 'blue',
   grey: 'grey'
 };
